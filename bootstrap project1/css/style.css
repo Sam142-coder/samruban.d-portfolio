@@ -1,0 +1,268 @@
+/* Color variables */
+:root {
+    --white-color: #fff;
+    --bg-color: #fff;
+    --gray-color: #ccc;
+  }
+  /* Changing background color */
+  body {
+    background: var(--bg-color) !important;
+  }
+  /* Changing link color */
+  .nav-item .nav-link {
+    color: var(--white-color);
+  }
+
+  .nav-item .nav-link::after {
+    display:var(--white-color);
+  }
+
+ /* Hero section background image */
+  .hero {
+    height: 100vh;
+   
+    background-image: url("../img/IMG_3958.jpg");
+   
+    /* background-image: url("../img/pic\ -\ Copy.jpg"); */
+    background-repeat:repeat;
+    background-position:center;
+    background-size: ;
+    background-size:750px ;
+    background-attachment: fixed;
+   }
+   
+  #skills i {
+    height: 100px;
+    width: 100px;
+  }
+  #portfolio img {
+    height: 300px;
+    object-fit: cover;
+  }
+  #about .img,
+  #about img,
+  .hire-text h2 {
+    position: relative;
+  }
+  /* Timeline background line */
+  #about .img::before {
+    content: "";
+    left: 50%;
+    width: 4px;
+    position: absolute;
+    height: calc(85% + 142px);
+    background: var(--gray-color);
+  }
+  #about img,
+  #about .hire-text h2 {
+    width: 140px;
+  }
+  #about .hire-text h2 {
+    height: 140px;
+  }
+  .social-icons a {
+    width: 40px;
+    height: 40px;
+  }
+  footer .social-icons a {
+    width: 35px;
+    height: 35px;
+  }
+  #cv img {
+    width: 200px;
+  }
+  /* Contact section background image */
+  
+ /* @media screen and (max-width: 990px) {
+    #skills .card {
+      width: calc(100% / 2 - 10px) !important;
+    }
+  }
+  @media screen and (max-width: 668px) {
+    #skills .card,
+    #portfolio .card-wrapper {
+      width: 100% !important;
+    }
+   #about .hire-text h2 {
+     height: 70px;
+     width: 70px;
+   }
+  }
+  @media screen and (max-width) {
+    #help .h3 .h5 {
+      margin-top: 0%;
+    }
+
+    
+  }
+
+/* media query for entire pages */
+
+
+@media screen and (max-width: 1366px){
+  .hero {
+    height: 100vh;
+   
+    background-image: url("../img/IMG_3958.jpg");
+   
+    /* background-image: url("../img/pic\ -\ Copy.jpg"); */
+    background-repeat:repeat;
+    background-position:top;
+     background-size:750px ;
+    background-attachment: fixed;
+   }
+   .hero #yes{
+    padding-bottom: 0%;
+
+   }
+   
+   #help{
+    margin-top: 0%;
+    padding-top: 0%
+    padding-bottom:100%;
+   }
+   #foot ul{
+    padding-top: 0%;
+    padding-bottom: 10%;
+   }
+  
+}
+
+
+@media screen and (max-width: 1024px){
+    .hero {
+      height: 100vh;
+     
+      background-image: url("../img/IMG_3958.jpg");
+     
+      /* background-image: url("../img/pic\ -\ Copy.jpg"); */
+      background-repeat:repeat;
+      background-position:top;
+      padding-top: 0%;
+      padding-bottom: 20%;
+    
+      
+      background-size:500px ;
+      background-attachment: fixed;
+     }
+     #help{
+      height: 0vh;
+      width: 50%;
+      margin-top: 10%;
+      margin-left: 33%;
+      display: block;
+
+      justify-self: center;
+      background-attachment: fixed;
+     }
+     #help h2{
+      display: block;
+      
+     }
+    
+  }
+
+  @media screen and (max-width: 992px){
+    .hero {
+      height: 100vh;
+     
+      background-image: url("../img/IMG_3958.jpg");
+     
+      /* background-image: url("../img/pic\ -\ Copy.jpg"); */
+      background-repeat:repeat;
+      background-position:top;
+      background-position-x:left ;
+      padding-bottom: 63%;
+      
+      background-size:600px ;
+      background-attachment: fixed;
+     }
+     #help{
+      margin-top: 5%;
+      
+      
+     }
+     #foot{
+      padding-right: 20%;
+      padding-top: 0%;
+      padding-bottom: 120%;
+      
+     }
+     
+    
+  }
+
+ @media screen and (max-width: 768px){
+    .hero {
+      height: 90vh;
+     
+      background-image: url("../img/IMG_3958.jpg");
+     
+      /* background-image: url("../img/pic\ -\ Copy.jpg"); */
+      background-repeat:no-repeat;
+      background-position:center;
+       
+      padding-bottom: 28%;
+      padding-top: 0%;
+      background-size:730px ;
+      background-attachment: fixed;
+     }
+     #help{
+      margin-bottom:10%;
+     }
+    
+  }
+ 
+
+  @media screen and (max-width: 576px){
+    .hero {
+      height: 100vh;
+     
+      background-image: url("../img/IMG_3958.jpg");
+     
+      /* background-image: url("../img/pic\ -\ Copy.jpg"); */
+      background-repeat:repeat;
+      background-position:top;
+      padding-bottom: 25%;
+      
+      background-size:660px ;
+      background-attachment: fixed;
+     }
+     
+    
+  }
+  @media screen and (max-width: 430px){
+    .hero {
+      height: 100vh;
+     
+      background-image: url("../img/IMG_3958.jpg");
+     
+      /* background-image: url("../img/pic\ -\ Copy.jpg"); */
+      background-repeat:no-repeat;
+      background-position:top;
+      padding-bottom: 40%;
+      
+      background-size:600px ;
+      background-attachment: fixed;
+     }
+    
+  }
+  @media screen and (max-width: 375px){
+    .hero {
+      height: 100vh;
+     
+      background-image: url("../img/IMG_3958.jpg");
+     
+      /* background-image: url("../img/pic\ -\ Copy.jpg"); */
+      background-repeat:no-repeat;
+      background-position:top ;
+      padding: top 25%;
+      
+      background-size:620px ;
+      background-attachment: fixed;
+     }
+     #help{
+      margin-bottom: %;
+     }
+    
+  }
